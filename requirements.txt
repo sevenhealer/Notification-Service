@@ -1,0 +1,11 @@
+fastapi[all] # Includes uvicorn, pydantic, etc.
+sqlalchemy
+psycopg2-binary # PostgreSQL adapter
+celery[redis] # Celery with Redis support (can also use celery[librabbitmq] for RabbitMQ)
+pydantic-settings # For loading config from .env
+python-dotenv # To load .env file for local non-Docker runs if neededfastapi[all] # Includes uvicorn, pydantic, etc.
+sqlalchemy
+psycopg2-binary # PostgreSQL adapter
+celery[redis] # Celery with Redis support (can also use celery[librabbitmq] for RabbitMQ)
+pydantic-settings # For loading config from .env
+python-dotenv # To load .env file for local non-Docker runs if needed
